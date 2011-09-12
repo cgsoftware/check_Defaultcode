@@ -1,0 +1,51 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* product_code_unique
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0.1\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-03-24 15:58+0000\n"
+"PO-Revision-Date: 2011-09-12 14:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. module: product_code_unique
+#: model:ir.model,name:product_code_unique.model_product_product
+msgid "Product"
+msgstr "Prodotto"
+
+#. module: product_code_unique
+#: model:ir.module.module,description:product_code_unique.module_meta_information
+msgid "Makes product code (default_code) a unique field \n"
+msgstr "Il codice prodotto è già presente.\n"
+
+#. module: product_code_unique
+#: constraint:product.product:0
+msgid "Error: Invalid ean code"
+msgstr "Errore: Codice EAN non valido"
+
+#. module: product_code_unique
+#: code:addons\product_code_unique\product.py:38
+#, python-format
+msgid " (copy)"
+msgstr " (Copia)"
+
+#. module: product_code_unique
+#: code:addons\product_code_unique\product.py:24
+#: constraint:product.product:0
+#: sql_constraint:product.product:0
+#, python-format
+msgid "Reference/Variant has to be unique."
+msgstr "Il codice/variante deve essere unico."
+
+#. module: product_code_unique
+#: model:ir.module.module,shortdesc:product_code_unique.module_meta_information
+msgid "Make product code unique"
+msgstr "Rende il campo Default_code univoco"
+
